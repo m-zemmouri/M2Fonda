@@ -516,13 +516,13 @@
             this.tableLayoutPanelSolution.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tableLayoutPanelSolution.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanelSolution.ColumnCount = 1;
-            this.tableLayoutPanelSolution.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanelSolution.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 108F));
             this.tableLayoutPanelSolution.Controls.Add(this.labelVille, 0, 0);
             this.tableLayoutPanelSolution.Location = new System.Drawing.Point(3, 38);
             this.tableLayoutPanelSolution.Name = "tableLayoutPanelSolution";
             this.tableLayoutPanelSolution.RowCount = 1;
-            this.tableLayoutPanelSolution.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 70F));
-            this.tableLayoutPanelSolution.Size = new System.Drawing.Size(109, 109);
+            this.tableLayoutPanelSolution.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 71F));
+            this.tableLayoutPanelSolution.Size = new System.Drawing.Size(110, 73);
             this.tableLayoutPanelSolution.TabIndex = 2;
             // 
             // labelVille
@@ -533,7 +533,7 @@
             this.labelVille.Location = new System.Drawing.Point(1, 1);
             this.labelVille.Margin = new System.Windows.Forms.Padding(0);
             this.labelVille.Name = "labelVille";
-            this.labelVille.Size = new System.Drawing.Size(70, 70);
+            this.labelVille.Size = new System.Drawing.Size(108, 71);
             this.labelVille.TabIndex = 0;
             this.labelVille.Text = "Villes";
             this.labelVille.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

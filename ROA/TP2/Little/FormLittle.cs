@@ -379,18 +379,18 @@ namespace ROA.TP2.Little
                     iVal.IsInfinity())
                 {
                     iVal = float.PositiveInfinity;
+                    this.dataGridViewGraph.Rows[e.RowIndex].Cells[e.ColumnIndex].Value = iVal;
                     cellStyle = dataGridViewCellStyleInfinity;
                 }
                 else
                 {
                     cellStyle = this.dataGridViewGraph.DefaultCellStyle;
                 }
-                this.dataGridViewGraph.Rows[e.RowIndex].Cells[e.ColumnIndex].Value = val;
                 this.dataGridViewGraph.Rows[e.RowIndex].Cells[e.ColumnIndex].Style = cellStyle;
                 if (checkBoxSemetrique.Checked)
                 {
-                    this.dataGridViewGraph.Rows[e.ColumnIndex].Cells[e.RowIndex].Value = val;
-                    this.dataGridViewGraph.Rows[e.ColumnIndex].Cells[e.RowIndex].Style = cellStyle;
+                    this.dataGridViewGraph.Rows[e.ColumnIndex].Cells[e.RowIndex].Value = this.dataGridViewGraph.Rows[e.RowIndex].Cells[e.ColumnIndex].Value;
+                    this.dataGridViewGraph.Rows[e.ColumnIndex].Cells[e.RowIndex].Style = this.dataGridViewGraph.Rows[e.RowIndex].Cells[e.ColumnIndex].Style;
                 }
             }
             catch (Exception ex)
